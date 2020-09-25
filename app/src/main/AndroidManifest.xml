@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prohub">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SettingsActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".LoginSignup.ForgetPasswordSuccessMessage"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".LoginSignup.SetNewPassword"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginSignup.MakeSelect"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginSignup.ForgetPassword"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginSignup.VerifyOTP"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginSignup.SignUp3rdClass"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginSignup.SingUp2ndClass"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginSignup.SignUp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginSignup.Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginSignup.StartUpScreen"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MachineMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ComputerMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BigDataMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AndroidMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".categories.BigData"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".categories.ComputerNetwork"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".categories.MachineLearning"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".categories.Android"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllTechnologies"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main4Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main3Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllButtonActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Base2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BaseActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PythonActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CplusActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".JavaDetailsActivity" />
+        <activity
+            android:name=".JavaActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

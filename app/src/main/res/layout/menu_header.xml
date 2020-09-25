@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="#e7f0fd"
+    android:paddingLeft="15dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/user_profile_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/profile_icon"
+        app:civ_border_width="2dp"
+        android:layout_above="@+id/app_logo"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        app:civ_border_color="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/menu_slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/muli_semibold"
+        android:text="A Batter Way" />
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/menu_slogan"
+        android:fontFamily="@font/muli_black"
+        android:text="Concept Corner"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/app_name"
+        android:src="@drawable/logo_remove" />
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="170dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/c_preview" />
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c_pluspafe"
+    tools:context=".CplusActivity">
+
+    <LinearLayout
+        android:id="@+id/cpluslinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back_icon"
+            android:padding="8dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/back_btn"
+            android:background="@drawable/ripple"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C++ Language from Scratch"
+            android:fontFamily="@font/muli_black"
+            android:textSize="28dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#F3F3F3"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cplus_text"
+        android:fontFamily="@font/muli"
+        android:textColor="@color/text2"
+        android:textSize="16sp"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/cpluslinear"/>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="165dp"
+        android:visibility="invisible" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="@android:color/transparent"
+        android:id="@+id/cp_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textt"
+        android:padding="10dp"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/ripple_design">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            app:civ_border_color="#000000"
+            app:civ_border_width="2dp"
+            android:src="@drawable/cplus_icon"/>
+
+        <TextView
+            android:id="@+id/cpName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="@font/muli_semibold"
+            android:text="Java jfhgsjdfghsje fhghsfbgshjf"
+            android:textAlignment="center"
+            android:textColor="@color/text_color"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pafee"
+    tools:context=".AllTechnologies">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:id="@+id/back_pressed"
+                android:src="@drawable/back"
+                android:background="@drawable/ripple_back"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli_black"
+                android:padding="10dp"
+                android:layout_toRightOf="@+id/back_pressed"
+                android:text="All Technologies"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/muli_semibold"
+                    android:padding="15dp"
+                    android:text="Android"
+                    android:textColor="@color/text2"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"/>
+
+                <Button
+                    android:id="@+id/buttonAndroid"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/ripple" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-2dp"
+                android:src="@drawable/android_logo" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/background">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/muli_semibold"
+                    android:padding="25dp"
+                    android:text="Machine Learning"
+                    android:textColor="@color/text2"
+                    android:textSize="22sp"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonMl"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/ripple" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_marginTop="-20dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/machine" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/background1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/muli_semibold"
+                    android:padding="25dp"
+                    android:text="Big Data Analysis"
+                    android:textColor="@color/text2"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"/>
+
+                <Button
+                    android:id="@+id/buttonBigData"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/ripple" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-15dp"
+                android:src="@drawable/bigdata" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/background">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/muli_semibold"
+                    android:padding="25dp"
+                    android:text="Networking"
+                    android:textColor="@color/text2"
+                    android:textSize="22sp"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonCn"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/ripple" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_marginTop="-5dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/networkingg" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

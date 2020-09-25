@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/deshboard_color"
+    android:padding="30dp"
+    tools:context=".LoginSignup.SingUp2ndClass">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:padding="5dp"
+            android:id="@+id/signUp_back_btn"
+            android:onClick="gotoSignUpScreen"
+            android:transitionName="transition_back_arrow_btn"/>
+
+        <TextView
+            android:id="@+id/signup_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textAllCaps="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="20dp"
+            android:textSize="38sp"
+            android:fontFamily="@font/muli_black"
+            android:transitionName="transition_title_text"/>
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose Gender"
+                android:textColor="@color/text_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/muli"/>
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp">
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:fontFamily="@font/muli"/>
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:fontFamily="@font/muli"/>
+
+                <RadioButton
+                    android:id="@+id/others"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Other"
+                    android:fontFamily="@font/muli"/>
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Your Age"
+                android:textColor="@color/text_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/muli"/>
+
+            <DatePicker
+                android:id="@+id/age_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false"
+                android:spinnersShown="true"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signup_next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:fontFamily="@font/muli_black"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ripple_design2"
+            android:textColor="@color/text2"
+            android:elevation="5dp"
+            android:onClick="callNextSignupScreen"
+            android:transitionName="transition_next_arrow_btn"/>
+
+        <Button
+            android:id="@+id/signup_login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:fontFamily="@font/muli_black"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/text_color"
+            android:textAllCaps="false"
+            android:elevation="5dp"
+            android:transitionName="transition_login_btn"/>
+
+    </LinearLayout>
+
+</ScrollView>

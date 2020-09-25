@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Concept Corner</string>
+    <string name="textt">Java is a high-level programming language originally developed by Sun Microsystems and released in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. This tutorial gives a complete understanding of Java.</string>
+    <string name="c_text">C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system. By design, C provides constructs that map efficiently to typical machine instructions</string>
+    <string name="cplus_text">C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes"</string>
+    <string name="python_text">Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python\'s design philosophy emphasizes code readability with its notable use of significant whitespace</string>
+
+    <string name="android_text">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets</string>
+    <string name="big_data_text">Big data is a field that treats ways to analyze, systematically extract information from, or otherwise deal with data sets that are too large or complex to be dealt with by traditional data-processing application software</string>
+    <string name="ml_text"> Machine learning is the study of computer algorithms that improve automatically through experience. It is seen as a subset of artificial intelligence.</string>
+    <string name="cn_text">A computer network is a group of computers that use a set of common communication protocols over digital interconnections for the purpose of sharing resources located on or provided by the network nodes.</string>
+
+
+</resources>

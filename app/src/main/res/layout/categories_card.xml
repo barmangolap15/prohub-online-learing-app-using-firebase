@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="8dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:padding="8dp"
+        android:background="@drawable/ripple_design_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tech_title"
+            android:text="Android"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/muli_black"
+            android:textSize="17sp"
+            android:textColor="@color/text2"/>
+
+        <ImageView
+            android:id="@+id/tech_image"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/tech_title"
+            android:src="@drawable/java_icon"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

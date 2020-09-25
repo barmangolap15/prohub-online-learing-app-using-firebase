@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="280dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="9dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:padding="15dp"
+        android:background="@drawable/ripple_design_card"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/featured_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/java_icon"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/featured_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JAVA"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/text2"
+            android:fontFamily="@font/muli_black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Free"
+            android:textColor="#FF9800"
+            android:fontFamily="@font/aubrey"/>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/muli"
+            android:textColor="#E6E6E6"
+            android:id="@+id/featured_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jsdfhjhdf fsdfahd sdhbhj jhsdfahdsuf sdfaisduf bsdasduf"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

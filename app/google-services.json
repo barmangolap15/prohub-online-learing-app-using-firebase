@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "238544084230",
+    "firebase_url": "https://prohub-ca707.firebaseio.com",
+    "project_id": "prohub-ca707",
+    "storage_bucket": "prohub-ca707.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238544084230:android:eae188460ee110ac089287",
+        "android_client_info": {
+          "package_name": "com.example.prohub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238544084230-eild7npbamii8qct1sigc47ikpg9b8s9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prohub",
+            "certificate_hash": "49429800c8588dfa3972411d666d9169471fa399"
+          }
+        },
+        {
+          "client_id": "238544084230-i9gdtndoiejlalik23sk4ugltk6mjlp5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPLyEJwjRhMPMIBx8fpRIW3U1qzC53B00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238544084230-i9gdtndoiejlalik23sk4ugltk6mjlp5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

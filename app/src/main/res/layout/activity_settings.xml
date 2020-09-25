@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settings_page"
+    android:padding="30dp"
+    tools:context=".SettingsActivity">
+
+    <RelativeLayout
+        android:id="@+id/setting_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/close_settings_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/close_white" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/settings_profile_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="115dp"
+            android:background="@drawable/backg"
+            android:src="@drawable/profile_icon"
+            app:civ_border_color="@android:color/black"
+            app:civ_border_width="4dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image_change_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/settings_profile_image"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="-40dp"
+            android:background="@drawable/backg"
+            android:src="@drawable/edit"
+            app:civ_border_color="@android:color/black"
+            app:civ_border_width="4dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_image_change_btn"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+
+            <!--            <de.hdodenhof.circleimageview.CircleImageView-->
+            <!--                android:layout_width="130dp"-->
+            <!--                android:layout_height="130dp"-->
+            <!--                android:id="@+id/settings_profile_image"-->
+            <!--                android:layout_below="@+id/app_bar_settings"-->
+            <!--                android:src="@drawable/profile_icon"-->
+            <!--                android:layout_marginTop="20dp"-->
+            <!--                android:layout_centerHorizontal="true"/>-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/profile_image_change_btn"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Change Profile"-->
+            <!--                android:textSize="17sp"-->
+            <!--                android:textStyle="bold"-->
+            <!--                android:layout_marginRight="10dp"-->
+            <!--                android:layout_marginTop="4dp"-->
+            <!--                android:textColor="#000"-->
+            <!--                android:layout_below="@+id/settings_profile_image"-->
+            <!--                android:layout_centerHorizontal="true"/>-->
+            <!--            <EditText-->
+            <!--                android:id="@+id/settings_phone_number"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_below="@+id/profile_image_change_btn"-->
+            <!--                android:hint="Phone Number"-->
+            <!--                android:layout_margin="15dp"-->
+            <!--                android:padding="10dp"/>-->
+            <!--            <EditText-->
+            <!--                android:id="@+id/settings_full_name"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_below="@+id/settings_phone_number"-->
+            <!--                android:layout_margin="15dp"-->
+            <!--                android:hint="Full Name"-->
+            <!--                android:padding="10dp" />-->
+
+            <!--            <EditText-->
+            <!--                android:id="@+id/settings_address"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_below="@+id/settings_full_name"-->
+            <!--                android:layout_margin="15dp"-->
+            <!--                android:hint="Adress"-->
+            <!--                android:padding="10dp" />-->
+
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/close_settings_btn"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="CLOSE"-->
+            <!--                android:textColor="#000"-->
+            <!--                android:layout_marginTop="12dp"-->
+            <!--                android:textSize="17sp"-->
+            <!--                android:textStyle="bold"/>-->
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/update_settings_btn"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_alignParentEnd="true"-->
+            <!--                android:layout_marginTop="12dp"-->
+            <!--                android:layout_marginRight="10dp"-->
+            <!--                android:text="UPDATE"-->
+            <!--                android:textColor="#000"-->
+            <!--                android:textSize="17sp"-->
+            <!--                android:textStyle="bold" />-->
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:textColorHint="@color/text_color"
+                app:boxStrokeColor="@color/text_color"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/text_color"
+                app:hintTextColor="@color/text_color"
+                app:startIconDrawable="@drawable/phone_icon"
+                app:startIconTint="@color/text_color">
+
+                <EditText
+                    android:id="@+id/settings_phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/muli"
+                    android:inputType="phone"
+                    android:textColor="@color/text_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Full Name"
+                android:textColorHint="@color/text_color"
+                app:boxStrokeColor="@color/text_color"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/text_color"
+                app:hintTextColor="@color/text_color"
+                app:startIconDrawable="@drawable/edit_icon"
+                app:startIconTint="@color/text_color">
+
+                <EditText
+                    android:id="@+id/settings_full_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/muli"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/text_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Address"
+                android:textColorHint="@color/text_color"
+                app:boxStrokeColor="@color/text_color"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/text_color"
+                app:hintTextColor="@color/text_color"
+                app:startIconDrawable="@drawable/address"
+                app:startIconTint="@color/text_color">
+
+                <EditText
+                    android:id="@+id/settings_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/muli"
+                    android:inputType="textPostalAddress"
+                    android:textColor="@color/text_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/update_settings_btn"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/ripple_design2"
+                android:fontFamily="@font/muli_black"
+                android:text="update"
+                android:textColor="@color/text2"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

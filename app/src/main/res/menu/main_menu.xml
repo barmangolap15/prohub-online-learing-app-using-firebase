@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="HOME"
+            android:icon="@drawable/menu_dashboard_icon"/>
+        <item
+            android:id="@+id/nav_technologies"
+            android:title="ALL TECHNOLOGIES"
+            android:icon="@drawable/tech_icon"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:title="SETTINGS"
+            android:icon="@drawable/setting_icon"/>
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/profile_icon"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Exit"
+                    android:icon="@drawable/logout_icon"/>
+
+            </group>
+        </menu>
+
+    </item>
+</menu>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/arizonia</item>
+        <item>@font/aubrey</item>
+        <item>@font/basic</item>
+        <item>@font/bilbo</item>
+        <item>@font/caveat_bold</item>
+        <item>@font/caveat_brush</item>
+        <item>@font/chathura</item>
+        <item>@font/chewy</item>
+        <item>@font/cookie</item>
+        <item>@font/dekko</item>
+        <item>@font/muli</item>
+        <item>@font/muli_black</item>
+        <item>@font/muli_semibold</item>
+    </array>
+</resources>
